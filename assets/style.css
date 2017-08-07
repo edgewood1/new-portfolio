@@ -5,9 +5,9 @@
 }
 
 nav {
-         background: url(images/older.jpg) no-repeat fixed center;
-   background-size: cover !important;   
-   /* background-color: turquoise */
+            background-image: url(images/older.jpg) no-repeat fixed center;  
+    background-size: cover !important;     
+    /* background-color: grey  */
 }
 
 #opening {
@@ -69,6 +69,7 @@ h1 {
 }
 
 footer {
-    background: url(images/older.jpg) no-repeat fixed center;
-   background-size: cover;   
+    /* background: url(images/older.jpg) no-repeat fixed center;
+   background-size: cover;    */
+   background-color: grey;
 }
