@@ -1,0 +1,68 @@
+#ibis {
+
+    height: 100%;
+    
+}
+
+nav {
+       background: url(images/older.JPG) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#opening {
+    background: url(images/beach.JPG) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+#about {
+      background: url(images/parchment.JPG) no-repeat center center fixed;
+  background-size: cover;
+height: 100%;
+/* margin-top: 50px; */
+padding-top: 5%;
+
+}
+
+#me {
+  text-align: justify;
+  text-indent: 1.3em;
+  margin: 0 20%;
+  font-size: 120%
+}
+
+#apps {
+height: 200%;
+padding-top: 5%;
+}
+
+#one.img {
+    height: 10;
+    width: 10;
+}
+
+ .left {
+    float: left;
+    height: 25%;
+} 
+ .right {
+    float: right;
+    width: 50%;
+    height: 25%;
+} 
+
+#web {
+    float: clear;
+height: 100%;
+background-color: gray;
+padding-top: 5%;
+}
+
+#contact {
+height: 100%;
+padding-top: 5%;
+}
+
+h1 {
+    text-align: center;
+}
