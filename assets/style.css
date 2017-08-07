@@ -5,8 +5,9 @@
 }
 
 nav {
-       background: url(images/older.JPG) no-repeat center center fixed;
-  background-size: cover;
+        background: url(images/older.JPG) no-repeat center center fixed;
+   background-size: cover;  
+  /* background-color: #A0522D */
 }
 
 #opening {
