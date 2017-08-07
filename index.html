@@ -2,24 +2,25 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
-    <div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper">
-            <img id="ibis" src="assets/images/ibis.png" alt="ibis" class="brand-logo">
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#apps">Applications</a></li>
-                <li><a href="#web">On The Web</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <img id="ibis" src="assets/images/ibis.png" alt="ibis" class="brand-logo">
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#apps">Applications</a></li>
+                        <li><a href="#web">On The Web</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
-    </div>
-</header>
+    </header>
 
     <section id="opening">
     </section>
@@ -29,63 +30,143 @@
 
         <h1> Who Am I? </h1>
         <section id="me">
-        <p> I'm Mel DeJesus. I live in Durham, NC. As a youngster, I had a fondness for an early form of the BASIC computer language.
+            <p> I'm Mel DeJesus. I live in Durham, NC. As a youngster, I had a fondness for an early form of the BASIC computer
+                language.
             </p>
-        <p> In a roundabout way, this led me briefly through an Ohio engineering program before switching to literature and philosophy,
-            both of which I still have a deep affinity for. </p>
-        <p>Later, I spent time teaching classes in writing and research at various NC colleges, exploring the ways that society
-            and media inform, persuade and motivate us. </p>
-        <p> Curious about other forms of landscape, I also spent time at an eco-contemplative center where I worked as an outdoor
-            guide and at a wildcrafting & outdoor school where I facilitated its sales, operational, and communications strategies.
+            <p> In a roundabout way, this led me briefly through an Ohio engineering program before switching to literature and
+                philosophy, both of which I still have a deep affinity for. </p>
+            <p>Later, I spent time teaching classes in writing and research at various NC colleges, exploring the ways that
+                society and media inform, persuade and motivate us. </p>
+            <p> Curious about other forms of landscape, I also spent time at an eco-contemplative center where I worked as an
+                outdoor guide and at a wildcrafting & outdoor school where I facilitated its sales, operational, and communications
+                strategies.
             </p>
-        <p>Presently, I've returned to writing code, exploring software and front-end web development. I appreciate the way
-            coding allows me to integrate many of my past interests while exploring new forms of expression. </p>
-            </section>
+            <p>Presently, I've returned to writing code, exploring software and front-end web development. I appreciate the
+                way coding allows me to integrate many of my past interests while exploring new forms of expression. </p>
+        </section>
     </section>
 
     <section id="apps">
         <h1> Applications </h1>
         <!--APP ONE   -->
-        <section id="one">
-            <section class="left">
-                <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
-            </section>
-            <section class="right">
-                <p> Mongo | Express | React | Node </p>
-                <h2> Good Tunes </h2>
+        <div class="container">
+            <div class="row" id="one">
+                <div class="col s5">
+                    <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
+                </div>
+                <div class="col s5 offset-s1">
+                    <p> Mongo | Express | React | Node </p>
+                    <h2> Good Tunes </h2>
                     <p> This app gathers new song recommendations from various music sites.</p>
                     <p> It also allows a user to rate and save select songs to a playlist.</p>
-                        <a> View Project Here </a>
-            </section>
-        </section>
-        <!--APP TWO   -->
-       
-        <section id="two">
- 
-     <section class="right">
-                <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
-            </section>
-            <section class="left">
-                <p> Mongo | Express | React | Node </p>
-                <h2> Second App</h2>
-                    <p> This app gathers new song recommendations from various music sites.</p>
-                    <p> It also allows a user to rate and save select songs to a playlist.</p>
-                        <a> View Project Here </a>
-                        </section>
+                    <a> View Project Here </a>
+                </div>
+            </div>
+        </div>
 
-        </section>
-        <!--APP THREE   -->
-        <section id="three">
-        </section>
-        <!--APP FOUR   -->
+        <!--APP ONE   -->
+        <div class="container">
+            <div class="row" id="two">
+                <div class="col s5">
+                    <p> Mongo | Express | React | Node </p>
+                    <h2> Good Tunes </h2>
+                    <p> This app gathers new song recommendations from various music sites.</p>
+                    <p> It also allows a user to rate and save select songs to a playlist.</p>
+                    <a> View Project Here </a>
+
+                </div>
+                <div class="col s5 offset-s1">
+                    <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
+                </div>
+            </div>
+        </div>
+
+        <!--APP three   -->
+        <div class="container">
+            <div class="row" id="three">
+                <div class="col s5">
+                    <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
+                </div>
+                <div class="col s5 offset-s1">
+                    <p> Mongo | Express | React | Node </p>
+                    <h2> Good Tunes </h2>
+                    <p> This app gathers new song recommendations from various music sites.</p>
+                    <p> It also allows a user to rate and save select songs to a playlist.</p>
+                    <a> View Project Here </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--APP four   -->
+        <div class="container">
+            <div class="row" id="two">
+                <div class="col s5">
+                    <p> Mongo | Express | React | Node </p>
+                    <h2> Good Tunes </h2>
+                    <p> This app gathers new song recommendations from various music sites.</p>
+                    <p> It also allows a user to rate and save select songs to a playlist.</p>
+                    <a> View Project Here </a>
+
+                </div>
+                <div class="col s5 offset-s1">
+                    <img src="assets/images/typewriter.jpeg" alt="typewriter" height="300" width="300">
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <section id="web">
-        <h1> On the Web </h1>
+        <h1>   On the Web </h1>
+        <aside>
+
+
+            <div class="aside">
+                <ul>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s2 offset-s1">
+                                <li><a href="https://github.com/edgewood1" target="_blank">
+              <i class="fa fa-github fa-lg" aria-hidden="true"> </i> 
+                </a> </li>
+                            </div>
+                            <div class="col s2">
+
+                                <li> <a href="https://twitter.com/meldejesus007" target="_blank">
+              <i class="fa fa-twitter fa-lg" aria-hidden="true"> </i> 
+                </a> </li> <br>
+                            </div>
+                            <div class="col s2">
+                                <li> <a href="https://meldejesus.wordpress.com/" target="_blank">
+              <i class="fa fa-wordpress fa-lg" aria-hidden="true"> </i> 
+                </a> </li>
+                                </div>
+                                    <div class="col s2">
+                                        <li> <a href="https://www.linkedin.com/in/mel-dejesus-a5754056?trk=nav_responsive_tab_profile"> 
+              <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i> 
+                </a> </li>
+                                    </div>
+                                    <div class="col s2">
+                                        <li> <a href="flicker.com">
+              <i class="fa fa-flickr fa-md" aria-hidden="true"> </i> 
+              </a> </li>
+                                    </div>
+                                </div>
+                            </div>
+                </ul>
+                </div>
+        </aside>
+
     </section>
 
     <section id="contact">
         <h1> Contact </h1>
+        <div id="email">
+            <a href="mailto:meldejesus22@gmail.com?subject=Profile_Contact">
+Send Email</a>
+        </div>
     </section>
 
     <footer class="page-footer">
@@ -98,18 +179,18 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        <li class="link"><a class="grey-text text-lighten-3" href="www.durhamtech.edu">Durham Tech</a></li>
+                        <li class="link"><a class="grey-text text-lighten-3" href="www.beholdnature.com">Center for Education, Imagination, and the Natural World</a></li>
+                        <li class="link"><a class="grey-text text-lighten-3" href="www.willswildherbs.com">Will's Wild Herbs</a></li>
+
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                © 2017 Mel DeJesus
+
             </div>
         </div>
     </footer>

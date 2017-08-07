@@ -5,9 +5,10 @@
 }
 
 nav {
-            background-image: url(images/older.jpg) no-repeat fixed center;  
+    background: url(images/older.jpg) no-repeat center center fixed; 
     background-size: cover !important;     
     /* background-color: grey  */
+ 
 }
 
 #opening {
@@ -33,43 +34,56 @@ padding-top: 5%;
 }
 
 #apps {
-height: 200%;
+height: 220%;
 padding-top: 5%;
+margin: 0;
+ 
 }
-
-#one.img {
-    height: 10;
-    width: 10;
+ 
+    #two, #four {
+    background: gray;
+ 
+ 
 }
-
- .left {
-    float: left;
-    height: 25%;
-} 
- .right {
-    float: right;
-    width: 50%;
-    height: 25%;
-} 
+ 
+ 
 
 #web {
     float: clear;
-height: 100%;
+height: 50%;
 background-color: gray;
+margin-top: 5%;
 padding-top: 5%;
 }
 
 #contact {
-height: 100%;
+height: 50%;
 padding-top: 5%;
+}
+
+#email{
+text-align:center;
+
 }
 
 h1 {
     text-align: center;
 }
 
+li {
+    padding-top: 25%;
+    font-size: 275%;
+    
+}
+a{
+    color: black;
+}
+.link {
+    font-size: 100%;
+    padding-top: 0;
+}
 footer {
-    /* background: url(images/older.jpg) no-repeat fixed center;
-   background-size: cover;    */
-   background-color: grey;
+     background: url(images/older.jpg) no-repeat fixed center;
+   background-size: cover;    
+   /* background-color: grey; */
 }
