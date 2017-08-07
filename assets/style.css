@@ -5,7 +5,7 @@
 }
 
 nav {
-         background: url(images/older.jpg) no-repeat center center fixed !important;
+         background: url(images/older.jpg) no-repeat fixed center;
    background-size: cover !important;   
    /* background-color: turquoise */
 }
@@ -17,7 +17,7 @@ nav {
 }
 
 #about {
-      background: url(images/parchment.JPG) no-repeat center center fixed;
+      background: url(images/parchment.jpg) no-repeat center center fixed;
   background-size: cover;
 height: 100%;
 /* margin-top: 50px; */
@@ -69,6 +69,6 @@ h1 {
 }
 
 footer {
-    background: url(images/older.jpg) no-repeat center center fixed !important;
-   background-size: cover !important;   
+    background: url(images/older.jpg) no-repeat fixed center;
+   background-size: cover;   
 }
