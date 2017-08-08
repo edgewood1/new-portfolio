@@ -1,5 +1,5 @@
 body {
-      background: url(images/map.jpeg) no-repeat center center fixed;
+      background: url(images/wood.jpeg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -15,19 +15,28 @@ nav {
     /* background-color: grey  */
  
 }
-
+ 
 #opening {
     background: url(images/beach.JPG) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
+  color: beige
+}
+
+#text {
+    padding-top: 20%;
+    text-align:center;
 }
 
 #about {
-      background: url(images/parchment.jpg) no-repeat center center fixed;
-  background-size: cover;
+      /* background: url(images/moon.jpeg) no-repeat center center fixed;
+  background-size: cover; */
+  /* background-color: beige; */
 height: 100%;
 /* margin-top: 50px; */
-padding-top: 5%;
+padding-top: 10%;
+ color: beige; 
+/* color: black; */
 
 }
 
@@ -42,7 +51,7 @@ padding-top: 5%;
 height: 245%;
 padding-top: 5%;
 margin: 0;
-   background: url(images/greener.jpeg) no-repeat center center fixed;
+   background: url(images/stars4.jpeg) no-repeat center center fixed;
   background-size: cover;
  
 }
@@ -55,8 +64,8 @@ hr {
     padding: 0; 
 }
  
-    #two, #four {
-    background: gray;
+    #one, #two, #three, #four {
+    /* background: gray; */
     color: white;
  
  
@@ -75,6 +84,7 @@ padding-top: 5%;
 #contact {
 height: 50%;
 padding-top: 5%;
+color: black !important;
 }
 
 #email{
@@ -84,6 +94,7 @@ text-align:center;
 
 h1 {
     text-align: center;
+    color: beige;
 }
 
 li {
@@ -92,7 +103,7 @@ li {
     
 }
 a{
-    color: black;
+    color: white;
 }
 .link {
     font-size: 100%;
