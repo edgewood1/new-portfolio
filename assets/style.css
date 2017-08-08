@@ -1,3 +1,8 @@
+body {
+      background: url(images/map.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
 #ibis {
 
     height: 100%;
@@ -34,14 +39,25 @@ padding-top: 5%;
 }
 
 #apps {
-height: 220%;
+height: 245%;
 padding-top: 5%;
 margin: 0;
+   background: url(images/greener.jpeg) no-repeat center center fixed;
+  background-size: cover;
  
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
 }
  
     #two, #four {
     background: gray;
+    color: white;
  
  
 }
