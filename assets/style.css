@@ -48,7 +48,7 @@ padding-top: 4%;
 }
 
 #apps {
-height: 245%;
+height: 345%;
 padding-top: 5%;
 margin: 0;
    background: url(images/stars4.jpeg) no-repeat center center fixed;
@@ -102,9 +102,7 @@ li {
     font-size: 275%;
     
 }
-a{
-    color: white;
-}
+/*  */
 .link {
     font-size: 100%;
     padding-top: 0;
@@ -113,4 +111,16 @@ footer {
      background: url(images/older.jpg) no-repeat fixed center;
    background-size: cover;    
    /* background-color: grey; */
+}
+
+a {
+    color: lightgoldenrodyellow ;
+}
+
+
+
+a:hover {
+    text-decoration: underline ;
+    color: lightblue ;
+    
 }
