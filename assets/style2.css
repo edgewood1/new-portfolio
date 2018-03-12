@@ -1,6 +1,4 @@
-h2, h5{
-    text-align: center;
-}
+
 
 .bold {
     font-weight: 900 !important;
@@ -23,4 +21,6 @@ section {
     background-color: #C5CFD9 !important;
 }
 
- 
+.u {
+    text-decoration: underline;
+}

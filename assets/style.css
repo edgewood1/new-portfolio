@@ -10,51 +10,51 @@ body {
 }
 
 nav {
-    background: url(images/older.jpg) no-repeat center center fixed; 
+    background: url(images/older.jpg); 
     background-size: cover !important;     
     /* background-color: grey  */
- 
+    height: 25%;
+   
 }
  
 #opening {
     background: url(images/beach.JPG) no-repeat center center fixed;
   background-size: cover;
   height: 100%;
-  color: beige
+  color: beige;
+  padding-top: 20%;
+  padding-bottom: 15%;
+  margin-top: 10%;
 }
 
 #text {
     padding-top: 20%;
-    text-align:center;
+    /* text-align:center; */
 }
 
-#about {
-      /* background: url(images/moon.jpeg) no-repeat center center fixed;
-  background-size: cover; */
-  /* background-color: beige; */
-height: 150%;
-/* margin-top: 50px; */
-padding-top: 4%;
- color: beige; 
-/* color: black; */
-
-}
-
-#me {
+  #me {
+padding-top: 20%;
+padding-bottom: 5%;
+margin-bottom: 5%;
   text-align: justify;
   text-indent: 1.3em;
-  margin: 0 20%;
-  font-size: 120%
-}
+ margin: 0 10%; 
+ margin-right: 15%;  
+ font-size: 120%;
+ color: white;
+} 
 
 #apps {
 height: 345%;
-padding-top: 5%;
+padding-top: 20%;
 margin: 0;
-   background: url(images/stars4.jpeg) no-repeat center center fixed;
+color: white;
+   background: url(images/solid.jpeg) no-repeat center center fixed;
   background-size: cover;
- 
+  font-size: 120%;
 }
+
+
 hr {
     display: block;
     height: 1px;
@@ -64,37 +64,17 @@ hr {
     padding: 0; 
 }
  
-    #one, #two, #three, #four {
-    /* background: gray; */
-    color: white;
- 
- 
-}
- 
- 
 
 #web {
+    padding-top: 5%;
     float: clear;
 height: 50%;
 background-color: gray;
 margin-top: 5%;
-padding-top: 5%;
 }
 
-#contact {
-height: 50%;
-padding-top: 5%;
-color: black !important;
-}
-
-#email{
+#email {
 text-align:center;
-
-}
-
-h1 {
-    text-align: center;
-    color: beige;
 }
 
 li {
@@ -102,10 +82,11 @@ li {
     font-size: 275%;
     
 }
-/*  */
+
 .link {
     font-size: 100%;
     padding-top: 0;
+
 }
 footer {
      background: url(images/older.jpg) no-repeat fixed center;
@@ -113,7 +94,7 @@ footer {
    /* background-color: grey; */
 }
 
-a {
+a, i {
     color: lightgoldenrodyellow ;
 }
 
@@ -121,6 +102,7 @@ a {
 
 a:hover {
     text-decoration: underline ;
-    color: lightblue ;
+    color: yellow ;
     
 }
+
